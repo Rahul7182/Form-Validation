@@ -1,0 +1,68 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: rgb(5,0,36);
+  background: linear-gradient(90deg, rgba(5,0,36,1) 0%, rgba(2,70,109,1) 82%);
+}
+
+
+.container{
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  max-width: 500px;
+  & hr{
+    margin-top: 5px;
+  }
+}
+
+.container .field{
+  font-weight: 600;
+  margin-top: 3.1rem;
+  font-size: 17px;
+  color: white;
+}
+.container .field input{
+  padding: 10px;
+  display: flex;
+  width: 290px;
+  font-size: 15px;
+  margin-top: 5px;
+  border: 1px solid rgba(214, 214, 214, 0.67);
+  border-radius: 6px;
+}
+.container button{
+  padding: 12px 120px;
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(0, 142, 231);
+  color: white;
+  font-weight: 550;
+  font-size: 15px;
+  margin-top: 3rem;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+}
+.container p{
+  color: rgb(216, 5, 5);
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.container .signedin{
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
